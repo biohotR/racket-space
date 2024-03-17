@@ -1,3 +1,3 @@
 #lang racket
 
-(foldl + 0 '(1 2 2 5))
+(foldl cons null '(1 2 3 4)) ; întoarce '(4 3 2 1)
